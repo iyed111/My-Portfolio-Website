@@ -1,0 +1,96 @@
+body{
+    font-family: "helvetica neuf",arial;
+    margin : 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(1, 1, 11);
+    color:white;
+
+}
+.header{
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0) , rgb(35, 1, 33)) ;
+    text-align: center;
+    padding: 40px 0px ;
+}
+/*--------------------------------------*/
+.header h1{
+    font-size: 2rem;
+}
+.header p{
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+/*+++**************************************++*/
+nav{
+
+
+    position: sticky;
+    top : 0 ;
+    z-index: 90;
+    
+    
+    
+    /*++***************************************+++*/
+}
+
+li:hover{
+    background-color: rgb(255, 165, 215);
+    border-radius: 20px;  
+    padding: 6px;
+}
+
+ul{
+    text-align: center;
+    height: 30px;
+    margin-top: 0;
+    background-color: rgb(125, 135, 142);
+    box-shadow: 0 5px 6px rgb(242, 93, 118);
+}
+li{
+    display: inline;
+    margin-right: 40px;
+    transition: 200ms;
+}
+section{
+    margin: auto;
+    padding: 30px;
+}
+h2{
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+footer{
+    height: 80px;
+    background-color: rgba(141, 141, 141, 0.862);
+    color: black;
+    padding-left: 30px;
+
+}
+
+
+/*
+
+.tel{
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: green ;
+    text-align: center;
+    position:fixed;
+    bottom: 80px;
+    right: 0;
+}
+.in{
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: rgb(58, 40, 253) ;
+    text-align: center;
+    position:fixed;
+    bottom: 40px;
+    right: 0;
+}
+                */
